@@ -13,7 +13,7 @@
 
 <!-- PROJECT SITE -->
 <h2 id="site">:earth_americas: Link do site </h2>
-<p>🔗 <a href="https://stingy-bikes.surge.sh/" target="_blank"> Viagens </a>  </p>
+<p>🔗 <a href="https://stingy-bikes.surge.sh/" target="_blank"> Clique aqui </a>  </p>
 <!-- <a href="https://stingy-bikes.surge.sh/" onclick="return ! window.open(this.href);"> Open in a new window</a> -->
 
 <!-- PROJECT TECHNOLOGIES -->
