@@ -77,6 +77,7 @@ const [isLoading, setIsLoading] = useState(false)
               type="role"
               value={form.role}
               onChange={onChange}
+              placeholder="Preencha com Normal ou Admin"
             />
 
             <Button
