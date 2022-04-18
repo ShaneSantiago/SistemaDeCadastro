@@ -1,5 +1,6 @@
 import React from "react"
 import { Card, Typography, CardContent } from "@mui/material";
+import { convertDate } from "../../Utils/ConvertDate";
 
 
 
@@ -16,13 +17,13 @@ const ProductCard = (props) => {
         </Typography>
 
         <Typography color="text.secondary">
-          Preço: {props.price}
+          Preço: R$:{props.price},00
         </Typography>
       
         <Typography >
           Descrição: {props.description}
           <br />
-          Data da problicação: {props.date}
+          Data da publicação: {convertDate(props.date)}
         </Typography>
 
         <Typography color="text.secondary">
