@@ -65,8 +65,7 @@ const [isLoading, setIsLoading] = useState(false)
               label="Password"
               type="password"
               value={form.password}
-              onChange={onChange}
-              autoComplete="current-password"
+              onChange={onChange}        
             />
 
             <TextField
@@ -78,7 +77,6 @@ const [isLoading, setIsLoading] = useState(false)
               type="role"
               value={form.role}
               onChange={onChange}
-              autoComplete="current-password"
             />
 
             <Button
